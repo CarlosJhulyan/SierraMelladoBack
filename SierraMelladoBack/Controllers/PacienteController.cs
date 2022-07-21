@@ -107,6 +107,43 @@ namespace SierraMelladoBack.Controllers
             }
         }
 
+        [HttpPut("updatePaciente")]
+
+        public async Task<ActionResult<Object>> UpdatePaciente(Paciente paciente)
+        {
+            try
+            {
+                var pacienteFound = await context.Pacientes.FirstOrDefaultAsync(x => x.IdPaciente == paciente.IdPaciente);
+
+                if (pacienteFound == null) return Ok(new
+                {
+                    success = false,
+                    message = "No se encontró el paciente"
+                });
+
+                pacienteFound.Celular = paciente.Celular;
+                pacienteFound.FechaNac = paciente.FechaNac;
+                pacienteFound.Dni = paciente.Dni;
+
+                context.Pacientes.Update(pacienteFound);
+                await context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Se actualizó los datos del paciente",
+                    data = pacienteFound
+                });
+            } catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = ex.Message,
+                });
+            }
+        }
+
         private async Task<ActionResult<String>> UploadImage(IFormFile file)
         {
             FileInfo fi = new FileInfo(file.FileName);

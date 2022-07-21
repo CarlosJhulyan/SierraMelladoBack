@@ -280,7 +280,7 @@ namespace SierraMelladoBack.Controllers
                 return Ok(new
                 {
                     success = true,
-                    message = "Cita generada correctamente",
+                    message = "Cita reservada correctamente",
                     data = citum
                 });
             } catch (Exception ex)

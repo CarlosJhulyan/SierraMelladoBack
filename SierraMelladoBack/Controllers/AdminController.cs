@@ -163,6 +163,7 @@ namespace SierraMelladoBack.Controllers
                                        apellidoPaterno = usuario.ApellidoPaterno,
                                        apellidoMaterno = usuario.ApellidoMaterno,
                                        idAdmin = admin.IdAdmin,
+                                       idUsuario = usuario.IdUsuario,
                                        key = admin.IdAdmin,
                                        fechaCrea = usuario.FechaCrea,
                                        correo = usuario.Correo,
@@ -235,6 +236,7 @@ namespace SierraMelladoBack.Controllers
                 usuario.ApellidoMaterno = usuario.ApellidoMaterno?.ToUpper();
                 usuario.ApellidoPaterno = usuario.ApellidoPaterno?.ToUpper();
                 usuario.Clave = BCrypt.Net.BCrypt.HashPassword(usuario.Clave);
+                usuario.Correo = usuario.Correo?.ToLower();
 
                 context.Usuarios.Add(usuario);
                 await context.SaveChangesAsync();
@@ -447,6 +449,45 @@ namespace SierraMelladoBack.Controllers
                 }
             }
             catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = ex.Message,
+                });
+            }
+        }
+
+        [HttpPut("updateUsuario")]
+        public async Task<ActionResult<Object>> UpdateUsuario(Usuario usuario)
+        {
+            try
+            {
+                var usuarioFound = await context.Usuarios.FirstOrDefaultAsync(x => x.IdUsuario == usuario.IdUsuario);
+
+                if (usuarioFound == null) return Ok(new
+                {
+                    success = false,
+                    message = "No se encontró el usuario"
+                });
+
+                usuarioFound.Nombres = usuario.Nombres?.ToUpper();
+                usuarioFound.ApellidoMaterno = usuario.ApellidoMaterno?.ToUpper();
+                usuarioFound.ApellidoPaterno = usuario.ApellidoPaterno?.ToUpper();
+                usuarioFound.Correo = usuario.Correo?.ToLower();
+                usuarioFound.FechaMod = DateTime.Now;
+
+                
+                context.Usuarios.Update(usuarioFound);
+                await context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Se actualizó los datos del usuario",
+                    data = usuarioFound
+                });
+            } catch (Exception ex)
             {
                 return BadRequest(new
                 {

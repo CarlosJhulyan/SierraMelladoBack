@@ -129,6 +129,39 @@ namespace SierraMelladoBack.Controllers
             }
         }
 
+        [HttpDelete("deleteEspecialidadesByMedico/{idMedico}")]
+        public async Task<ActionResult<Object>> DeleteEspecialidadesByMedico(int idmedico)
+        {
+            try
+            {
+                var especialidades = await context.Especialidads.ToListAsync();
+
+                especialidades.ForEach( async (item) =>
+                {
+                    //if (item.IdMedicos.FirstOrDefault(x => x.IdMedico == idmedico))
+                    //{
+                        //context.Especialidads.Remove(item);
+                        //await context.SaveChangesAsync();
+                    //}
+                });
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Se eliminó la especialidad",
+                    data = especialidades
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = ex.Message,
+                });
+            }
+        }
+
         [HttpPatch("changeAvatar")]
         public async Task<ActionResult<Object>> ChangeAvatar([FromForm] Medico medico)
         {
@@ -162,6 +195,45 @@ namespace SierraMelladoBack.Controllers
                 {
                     success = false,
                     message = "No se encontró el archivo"
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = ex.Message,
+                });
+            }
+        }
+
+        [HttpPut("updateMedico")]
+
+        public async Task<ActionResult<Object>> UpdateMedico(Medico medico)
+        {
+            try
+            {
+                var medicoFound = await context.Medicos.FirstOrDefaultAsync(x => x.IdMedico == medico.IdMedico);
+
+                if (medicoFound == null) return Ok(new
+                {
+                    success = false,
+                    message = "No se encontró al médico"
+                });
+
+                medicoFound.Celular = medico.Celular;
+                medicoFound.CodColegiado = medico.CodColegiado;
+                medicoFound.FechaNac = medico.FechaNac;
+                medicoFound.Dni = medico.Dni;
+
+                context.Medicos.Update(medicoFound);
+                await context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Se actualizó los datos del médico",
+                    data = medicoFound
                 });
             }
             catch (Exception ex)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BmC4xX7f+7/EnWraQMt34XUAcrH6Xdt3vGKA3ccevI0=",
+  "Hash": "5yTRfJIDf+ZyWqkc06U/Ai7aDWTtRVgLy5/M+w8a2sU=",
   "Source": "SierraMelladoBack",
   "BasePath": "_content/SierraMelladoBack",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\reporte_15cda20b-e2d1-4d46-a202-e41eabfbb593.pdf"
+    },
+    {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_176f4044-c669-4b2f-ad3f-7fbb10a84297.pdf",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "files/reporte_176f4044-c669-4b2f-ad3f-7fbb10a84297.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\reporte_176f4044-c669-4b2f-ad3f-7fbb10a84297.pdf"
     },
     {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_3afc4afd-6b74-41de-862b-43ad41cd9d06.pdf",
@@ -170,6 +187,23 @@
       "OriginalItemSpec": "wwwroot\\files\\reporte_5cbd147e-414d-44aa-9b7e-fc145bb5eed1.pdf"
     },
     {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_68856eb6-f8c4-48f3-99f1-f99b566853d1.pdf",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "files/reporte_68856eb6-f8c4-48f3-99f1-f99b566853d1.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\reporte_68856eb6-f8c4-48f3-99f1-f99b566853d1.pdf"
+    },
+    {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_935b800e-e947-4d0b-8567-859c1887ab29.docx",
       "SourceId": "SierraMelladoBack",
       "SourceType": "Discovered",
@@ -202,6 +236,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\reporte_9d7ac58d-2d7a-4157-b84e-7097539dfae5.pdf"
+    },
+    {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_a23a74c2-3e9c-400b-a2af-b85a67dc81b7.pdf",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "files/reporte_a23a74c2-3e9c-400b-a2af-b85a67dc81b7.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\reporte_a23a74c2-3e9c-400b-a2af-b85a67dc81b7.pdf"
+    },
+    {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_aaef1c3d-a44a-4ab4-bda0-716d4a7cf355.pdf",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "files/reporte_aaef1c3d-a44a-4ab4-bda0-716d4a7cf355.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\reporte_aaef1c3d-a44a-4ab4-bda0-716d4a7cf355.pdf"
     },
     {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\files\\reporte_b07245aa-37c4-4bcb-9df5-81dbfa8094a5.pdf",
@@ -389,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\articulo_55c2002d-5ac8-4df3-911a-0f33fcf06a83.png"
+    },
+    {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\articulo_5d2deb6e-a646-4355-852f-8901aeb4dbf4.jpg",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "images/articulo_5d2deb6e-a646-4355-852f-8901aeb4dbf4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\articulo_5d2deb6e-a646-4355-852f-8901aeb4dbf4.jpg"
     },
     {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\articulo_603.png",
@@ -612,6 +697,23 @@
       "OriginalItemSpec": "wwwroot\\images\\avatar_396.jpeg"
     },
     {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\avatar_3a7257c5-18bb-45d8-9218-10ebb270cfb6.jpg",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "images/avatar_3a7257c5-18bb-45d8-9218-10ebb270cfb6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar_3a7257c5-18bb-45d8-9218-10ebb270cfb6.jpg"
+    },
+    {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\avatar_44fba8cf-edba-4c77-90df-d252a433b889.jpg",
       "SourceId": "SierraMelladoBack",
       "SourceType": "Discovered",
@@ -712,6 +814,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\avatar_bdb72d79-4185-4965-a7fd-e31862787a43.jpg"
+    },
+    {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\avatar_df5959d1-3330-4038-a9d0-af71a5533f24.jpg",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "images/avatar_df5959d1-3330-4038-a9d0-af71a5533f24.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar_df5959d1-3330-4038-a9d0-af71a5533f24.jpg"
     },
     {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\avatar_ee3ca8f3-c8bf-4504-ae6b-db75988c8884.jpg",
@@ -901,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\images\\vaucher_2ba8c4d5-d51f-4af1-acd4-69fdfe240b41.jpeg"
     },
     {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\vaucher_3dafc8a3-4db9-492b-8f16-58a96f23dcf6.jpeg",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "images/vaucher_3dafc8a3-4db9-492b-8f16-58a96f23dcf6.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vaucher_3dafc8a3-4db9-492b-8f16-58a96f23dcf6.jpeg"
+    },
+    {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\vaucher_3f2963fa-0871-4e17-838b-6de571f592fa.jpg",
       "SourceId": "SierraMelladoBack",
       "SourceType": "Discovered",
@@ -984,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\vaucher_eaeeeb99-e161-4004-9c93-a51f6e227915.jpeg"
+    },
+    {
+      "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\vaucher_fac125b5-2886-4093-99b8-bf47560bbcb3.jpg",
+      "SourceId": "SierraMelladoBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\",
+      "BasePath": "_content/SierraMelladoBack",
+      "RelativePath": "images/vaucher_fac125b5-2886-4093-99b8-bf47560bbcb3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vaucher_fac125b5-2886-4093-99b8-bf47560bbcb3.jpg"
     },
     {
       "Identity": "D:\\University\\300-II\\Desarrollo Web\\Proyecto\\SierraMelladoBack\\SierraMelladoBack\\wwwroot\\images\\vaucher_fb17465c-3d86-485f-a27a-99dca5b70f07.jpg",
